@@ -7,6 +7,21 @@ This repository contains notebooks for analyzing candy data from
 
 The goal of this analysis was to determine what features impact Candy Demands.  At first, I analyzed the impact of features against solely Win Percent, or the given popularity. After this analysis, I experiemented with enriching the base dataset with Candy Sales and Geographic information for deeper insights, primarily to try predicting total pounds sold, as I believe this is a more powerful indicator of popular candy. 
 
+-------------------
+# High Level Approach
+-------------------
+High Level Approach:
+1. Explored customer sentiment data to understand preferences
+    * Analyzed Win Percent on Candy Features to understand key features driving positive sentiment
+2. Sourced Candy Sales for 2020 to understand top selling candy
+    * Compared drivers for top sales against customer sentiment data 
+3. Gathered Geographical Data to understand regional preferences
+    * Investigated regional drivers for candy with emphasis on North-East 
+4. Prepared all three datasets to generate initial predictive models to forecast candy sales and understand significant features
+
+-------------------
+# Additional Data Information
+-------------------
 The Ultimate Halloween Candy Power Ranking data contains the following fields:
 
 Header | Description
