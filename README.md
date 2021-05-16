@@ -5,6 +5,8 @@ This repository contains notebooks for analyzing candy data from
 * [Most Popular Halloween Candy by State](https://www.candystore.com/blog/facts-trivia/halloween-candy-map-popular/).
 * [Census Regions](https://github.com/cphalpert/census-regions/blob/master/us%20census%20bureau%20regions%20and%20divisions.csv).
 
+The goal of this analysis was to determine what features impact Candy Demands.  At first, I analyzed the impact of features against solely Win Percent, or the given popularity. After this analysis, I experiemented with enriching the base dataset with Candy Sales and Geographic information for deeper insights, primarily to try predicting total pounds sold, as I believe this is a more powerful indicator of popular candy. 
+
 The Ultimate Halloween Candy Power Ranking data contains the following fields:
 
 Header | Description
